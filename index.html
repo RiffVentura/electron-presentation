@@ -1,0 +1,226 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>reveal.js</title>
+
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/beige.css">
+	<link rel="stylesheet" href="css/custom.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body><div class="reveal">
+    <div class="slides">
+        <section>
+            <h1>Electron</h1>
+        </section>
+        <section>
+            <section>
+                <div class="title">
+                    <h2>Electron est</h2>
+                </div>
+                <div class="wrapper">
+                    <div class="text">
+                        <ul>
+                            <li class="fragment fade-up">un framework open source</li>
+                            <li class="fragment fade-up">permettant de développer des applications desktop
+                                multiplateformes
+                            </li>
+                            <li class="fragment fade-up">avec des technologies web (Javascript, HTML et CSS)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="title">
+                    <h3>Déjà mis à l'épreuve</h2>
+                </div>
+                <div class="wrapper">
+                    <div class="text">Visual Studio Code</div>
+                    <div class="pics">
+                        <img src="https://raw.githubusercontent.com/be5invis/vscode-custom-css/master/screenshot.png">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="title">
+                        <h3>Déjà mis à l'épreuve</h2>
+                </div>
+                <div class="wrapper">
+                    <div class="text">Discord</div>
+                    <div class="pics">
+                        <img src="https://forum.novelupdates.com/attachments/upload_2016-7-14_18-18-14-png.6975/">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="title">
+                        <h3>Déjà mis à l'épreuve</h2>
+                </div>
+                <div class="wrapper">
+                    <div class="text">Slack</div>
+                    <div class="pics">
+                        <img
+                            src="https://a.slack-edge.com/73267c/marketing/img/downloads/screenshots/win10_screenshot.png">
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="title">
+                    <h3>Déjà mis à l'épreuve par plein d'autres</h3>
+                </div>
+                <div class="wrapper">
+                    <div class="pics">
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section>
+            <section>
+                <div class="title">
+                    <h3>Pourquoi les applications de bureau ?</h3>
+                </div>
+                <div class="wrapper">
+                    <div class="text">
+                        <ul>
+                            <li class="fragment fade-up">Accès au système de fichiers</li>
+                            <li class="fragment fade-up">Mode hors-ligne</li>
+                            <li class="fragment fade-up">Accès aux imprimantes et autres périphériques</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="title">
+                    <h3>Pourquoi Electron ?</h3>
+                </div>
+                <div class="wrapper">
+                    <div class="text">
+                        <ul>
+                            <li class="fragment fade-up">NodeJS</li>
+                            <li class="fragment fade-up">Technologies du web (HTML,CSS, Javascript)</li>
+                            <li class="fragment fade-up">Open Source (MIT)</li>
+                            <li class="fragment fade-up">Dernières fonctionnalités disponibles</li>
+                            <li class="fragment fade-up">Windows, Mac, Linux</li>
+                            <li class="fragment fade-up">Compatibilité avec Apple Store et Windows Store</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="title">
+                    <h3>Pourquoi Electron ?</h3>
+                </div>
+                <div class="wrapper">
+                    <div class="text">
+                        <p>Pas besoin de réinventer la roue</p>
+                        <ul>
+                            <li class="fragment fade-up">Mise à jour automatique</li>
+                            <li class="fragment fade-up">Menus natifs et notifications</li>
+                            <li class="fragment fade-up">Rapport de plantage</li>
+                            <li class="fragment fade-up">Des outils de debuging et analyse de performance</li>
+                            <li class="fragment fade-up">Installeurs Windows</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <section>
+            <h1>demo</h1>
+        </section>
+        <section>
+            <section>
+                <div class="title">
+                    <h3>Inconvénients</h3>
+                </div>
+                <div class="wrapper">
+                    <div class="text">
+                        <ul>
+                            <li class="fragment fade-up">Chromimum
+                                <ul>
+                                    <li>Taille de l'application (130 MB)</li>
+                                    <li>RAM</li>
+                                </ul>
+                            </li>
+                            <li class="fragment fade-up">Sécurité</li>
+                            <li class="fragment fade-up">Pas de protection du code source</li>
+                            <li class="fragment fade-up">La vitesse (Javascript)</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="title">
+                    <h3>Alternatives</h3>
+                </div>
+                <div class="wrapper">
+                    <div class="text">
+                        <h4>NW.js</h4>
+                        <ul>
+                            <li class="fragment fade-up">Support windows XP</li>
+                            <li class="fragment fade-up">Extensions de Chrome</li>
+                            <li class="fragment fade-up">Protection du code source</li>
+                            <li class="fragment fade-up">Dernière version de Chrome</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+        </section>
+        <section>
+            <div class="title">
+                <h3>Pour finir</h3>
+            </div>
+            <div class="wrapper">
+                <div class="text">
+                    <ul>
+                        <li class="fragment fade-up">Possibilité de créer des applications avec UX unique</li>
+                        <li class="fragment fade-up">Initiation au la programmation desktop pour les développeurs webs
+                        </li>
+                        <li class="fragment fade-up">GUI pour les scripts NodeJS</li>
+                        <li class="fragment fade-up">Possibilité de créer des outils internes</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            That's all folks
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+        dependencies: [
+            { src: 'plugin/markdown/marked.js' },
+            { src: 'plugin/markdown/markdown.js' },
+            { src: 'plugin/notes/notes.js', async: true },
+            { src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } }
+        ]
+    });
+</script>
+</body>
+
+</html>
