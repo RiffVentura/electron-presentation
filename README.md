@@ -1,3 +1,3 @@
-#presentation link
+# Presentation page
 
 https://riffventura.github.io/electron-presentation/
